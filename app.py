@@ -53,7 +53,7 @@ PLOT_THEME = dict(
 @st.cache_data
 def load_data():
     fg = pd.read_csv('fear_greed_index.csv')
-    ht = pd.read_csv('historical_data.csv')
+    ht = pd.read_csv('https://drive.google.com/drive/folders/10qNZ50kI-npe4R81NzEm2sZmjXmYqPhK?usp=sharing')
 
     fg['date'] = pd.to_datetime(fg['date'])
     ht['trade_date'] = pd.to_datetime(
